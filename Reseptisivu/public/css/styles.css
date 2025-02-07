@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+
+header {
+    background: rgb(108, 118, 140);
+    padding: 2em;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+h1{
+    font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    background: rgb(108, 118, 140);
+    margin: 0; /* Remove margin */
+    padding: 0.5em 0; /* Adjust padding if needed */
+}
+
+.navbutton {
+    display:inline-block;
+    padding: 1em;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: 0.5em;
+    width: 10em;
+}
+
+.navbutton:hover, .navbutton:active {
+    background-color: rgba(123, 123, 216, 0.363);
+}
+
+.navbutton a {
+    text-decoration: none;
+    color: black;
+}
+
+.inputarea {
+    display:flex;
+    width: 60% ;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+input, textarea {
+    width: 100%;
+    flex-grow: 1;
+}
+
+#sendbutton {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.centeredtext, .centered {
+    text-align: center;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recipe {
+    border: solid 0.1em;
+    padding: 1em 2em;
+    border-radius: 10px;
+    width: 40%;
+    margin: 0.3em;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
