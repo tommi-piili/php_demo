@@ -10,7 +10,7 @@ function connectDB(){
 
 function connect() {
         $host = getenv('DB_HOST', true) ?: "";
-        $port = getenv('DB_PORT', true) ?: 3306; 
+        $port = getenv('DB_PORT', true) ?: ""; 
         $dbname = getenv('DB_NAME', true) ?: "";
         $user = getenv('DB_USERNAME', true) ?: "";
         $password = getenv('DB_PASSWORD', true) ?: "";
